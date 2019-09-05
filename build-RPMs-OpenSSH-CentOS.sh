@@ -28,7 +28,7 @@ function build_RPMs(){
     mkdir -p ~/rpmbuild/SOURCES && cd ~/rpmbuild/SOURCES
     wget -c https://mirrors.nav.ro/pub/OpenBSD/OpenSSH/portable/openssh-${version}.tar.gz
     wget -c https://mirrors.nav.ro/pub/OpenBSD/OpenSSH/portable/openssh-${version}.tar.gz.asc
-    # wget -c https://mirrors.tuna.tsinghua.edu.cn/slackware/slackware64-current/source/xap/x11-ssh-askpass/x11-ssh-askpass-1.2.4.1.tar.gz
+    wget -c https://mirrors.nav.ro/slackware/slackware64-current/source/xap/x11-ssh-askpass/x11-ssh-askpass-1.2.4.1.tar.gz
     # # verify the file
 
     # update the pam sshd from the one included on the system
